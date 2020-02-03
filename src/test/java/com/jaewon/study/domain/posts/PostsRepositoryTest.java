@@ -25,7 +25,7 @@ public class PostsRepositoryTest {
 
     @Test
     public void saveAndFind() {
-        String title = "test";
+        String title   = "test";
         String content = "content";
 
         postsRepository.save(Posts.builder()
